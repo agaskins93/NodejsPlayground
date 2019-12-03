@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { ServerComponent } from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
 import { WarningMsg } from './warningmsg/warningmsg.component';
+import { SuccessmsgComponent } from './successmsg/successmsg.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ServerComponent,
     ServersComponent,
-    WarningMsg
+    WarningMsg,
+    SuccessmsgComponent
   ],
   imports: [
     BrowserModule,
