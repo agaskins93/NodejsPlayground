@@ -1,4 +1,17 @@
-.warnicon img {
-  height: 10px;
+h4 {
+  color: red;
+}
+
+
+img {
+  display:block;
+    margin:auto;
+    float:right;
+}
+
+.warnicon {
+  height: 50px;
   width: auto;
+  vertical-align:middle;
+  text-align:middle;
 }
